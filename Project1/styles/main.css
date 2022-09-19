@@ -1,0 +1,18 @@
+@import "./components/menu.css";
+@import "./components/reviews.css";
+@import "./components/content.css";
+@import "./components/cards.css";
+
+html, body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+} 
+.wrapper {
+    /* display: flex; */
+    width: 100%;
+    /* height: 100%; */
+    /* flex-direction: column; */
+    font-family: 'Roboto';
+}
+

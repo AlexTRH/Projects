@@ -1,0 +1,127 @@
+.team {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.team__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    justify-content: center;
+}
+
+.team__info {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team__title {
+    font-size: 42px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 28px;
+    width: 30%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.team__line {
+    width: 132px;
+    border-bottom: 3px solid #ff2d2d;
+    margin-top: 30px;
+}
+
+.team__content {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* text-align: left; */
+}
+
+.content__logo {
+    width: 320px;
+    height: 460px;
+}
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 74px;
+}
+
+.info__title {
+    font-size: 31px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+}
+
+.info__text {
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 28px;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.info__list {
+    display: flex;
+    margin-top: 44px;
+    width: 371px;
+    justify-content: space-between
+}
+
+.info__link {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    color: rgba(0, 0, 0, 0.8);
+    transition: .3s;
+}
+
+.info__link:hover {
+    transition: .3s;
+    color: #ff2d2d;
+}
+
+.info__images {
+    display: flex;
+    margin-top: 55px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info__image {
+    width: 197px;
+    height: 214px;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    height: 37px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    line-height: 37px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: none;
+}
+
+.info__image:hover .name {
+    display: block;
+}

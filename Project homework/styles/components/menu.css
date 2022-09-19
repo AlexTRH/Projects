@@ -1,0 +1,36 @@
+.navigation{
+    display:flex;
+    flex-direction: row;
+    padding: 32px 0px;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.navigation_poster{
+    margin-right: 320px;
+}
+
+.navigation_switchers{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navigation_switcher{
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 6px 12px;
+    border: unset;
+    background-color: unset;
+    color: #323332;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.navigation_switcher--active{
+    background-color: #323332;
+    color: white;
+}

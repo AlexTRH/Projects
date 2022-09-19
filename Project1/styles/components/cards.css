@@ -1,0 +1,36 @@
+.content__cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    margin-right: 23px;
+}
+
+.cards__row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.cards__card{
+    display: flex;
+    flex-direction: column;
+    width: 214px;
+    color: #848484;
+}
+
+.card__title{
+    font-size: 26px;
+    color: #696161;
+}
+
+.card__time{
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.card__text{
+    margin-top: 16px;
+    font-size: 14px;
+}

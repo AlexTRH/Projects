@@ -1,0 +1,22 @@
+.ads{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.ads_image{
+    width: 617px;
+    height: 284px;
+}
+
+.ads_titles{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 6px 12px;
+    border: unset;
+    background-color: unset;
+    color: #323332;
+}

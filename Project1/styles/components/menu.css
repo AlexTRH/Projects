@@ -1,0 +1,45 @@
+.navigation{
+    display:flex;
+    flex-direction: row;
+    padding: 32px 0px;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.navigation__poster{
+    width: 232px;
+    height: 48px;
+    margin-right: 320px;
+}
+
+.navigation__switchers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigation__switcher{
+    font-size: 18px;
+    padding: 6px 12px;
+    border: unset;
+    background-color: unset;
+    font-weight: 300;
+    color: #323332;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navigation__switcher:hover{
+    transition: .3s;
+    color: white;
+    background-color: #323332;
+}
+
+.navigation__switcher--active{
+    background-color: #323332;
+    color: white;
+}
